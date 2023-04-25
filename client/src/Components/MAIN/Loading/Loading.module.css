@@ -1,0 +1,36 @@
+.conteinerLoader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30rem;
+    width: 100%;
+}
+
+.conteinerLoader>div {
+    background-color: rgba(0, 0, 0, 0.99);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border: 10px solid rgba(255, 255, 255, 0.06); /* color blanco con opacidad del 50% */
+    border-radius: 50%;
+}
+
+
+  .loader{
+    font-size: 22px;
+    color: transparent;
+    overflow:hidden;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:0 0 #FFF, 5em 0 #FFF;
+    animation:marquee 2s infinite ease;
+  }
+
+  .loader:before {
+    content:"Loading...";
+  }

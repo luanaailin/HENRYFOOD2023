@@ -1,0 +1,22 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(26, 51, 30, 0.99);
+    height: 10rem;
+    width: 96%;
+    padding: 1rem 2%;
+    color: rgb(236, 234, 229);
+    text-align: left;
+}
+
+.footer h5 {
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+
+.infoLeft {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
